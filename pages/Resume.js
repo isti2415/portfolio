@@ -2,8 +2,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import { FaDownload, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
-
-
+import Link from "next/link";
 export default function Resume() {
     const [darkMode, setDarkMode] = useState(true);
 
@@ -17,9 +16,9 @@ export default function Resume() {
             <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
                 <section className="min-h-screen">
                     <nav className="py-10 mb-12 flex justify-between dark:text-white">
-                        <a href="/" className="font-burtons text-xl">
+                        <Link href="/" className="font-burtons text-xl">
                             Istiaq Ahmed
-                        </a>
+                        </Link>
                         <ul className="flex items-center">
                             <li style={{ position: 'fixed', bottom: '20px', right: '40px' }}>
                                 <BsFillMoonStarsFill
@@ -28,20 +27,20 @@ export default function Resume() {
                                 />
                             </li>
                             <li>
-                                <a
+                                <Link
                                     className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                                     href="/Resume"
                                 >
                                     Resume
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
+                                <Link
                                     className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                                     href="/Portfolio"
                                 >
                                     Portfolio
-                                </a>
+                                </Link>
                             </li>
                             <li style={{ position: 'fixed', bottom: '20px', left: '40px' }}>
                                 <a href="/path/to/download" download>

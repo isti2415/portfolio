@@ -9,6 +9,7 @@ import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import { FaDownload, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import Link from "next/link";
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
@@ -22,9 +23,9 @@ export default function Portfolio() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <nav className="py-10 mb-12 flex justify-between dark:text-white">
-          <a href="/" className="font-burtons text-xl">
+          <Link href="/" className="font-burtons text-xl">
             Istiaq Ahmed
-          </a>
+          </Link>
           <ul className="flex items-center">
             <li style={{ position: 'fixed', bottom: '20px', right: '40px' }}>
               <BsFillMoonStarsFill
@@ -33,12 +34,20 @@ export default function Portfolio() {
               />
             </li>
             <li>
-              <a
+              <Link
                 className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 href="/Resume"
               >
                 Resume
-              </a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="/Portfolio"
+              >
+                Portfolio
+              </Link>
             </li>
             <li>
               <a
