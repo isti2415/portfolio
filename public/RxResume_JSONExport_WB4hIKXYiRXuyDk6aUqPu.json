@@ -1,0 +1,402 @@
+{
+    "basics": {
+        "name": "Istiaq Ahmed",
+        "email": "istiaqahmed87@gmail.com",
+        "phone": "01611160290",
+        "photo": {
+            "url": "https://cdn.rxresu.me/uploads/45488/257857/1668974562381.jpg",
+            "filters": {
+                "size": 180,
+                "shape": "circle",
+                "border": true,
+                "grayscale": false
+            },
+            "visible": true
+        },
+        "summary": "",
+        "website": "istiaqahmed.me",
+        "headline": "",
+        "location": {
+            "city": "Dhaka",
+            "region": "",
+            "address": "1,1/1 Naya Paltan",
+            "country": "Bangladesh",
+            "postalCode": "1000"
+        },
+        "profiles": [
+            {
+                "id": "d9995603-5b14-47b6-ab90-11daba2b253b",
+                "url": "www.facebook.com/xo2415",
+                "network": "Facebook",
+                "username": "xo2415"
+            },
+            {
+                "id": "0aeed72a-9bf8-46e8-895e-2c90bebab413",
+                "url": "https://www.linkedin.com/in/istiaq-a-7b930a11b/",
+                "network": "Linkedin",
+                "username": "istiaq-a-7b930a11b"
+            },
+            {
+                "id": "32ad6a97-0ff4-4132-acdd-33a8d8fed10f",
+                "url": "https://twitter.com/IstiaqA01586361",
+                "network": "Twitter",
+                "username": "IstiaqA01586361"
+            }
+        ],
+        "birthdate": "2000-06-29T18:30:30.000Z"
+    },
+    "sections": {
+        "work": {
+            "id": "work",
+            "name": "Work Experience",
+            "type": "work",
+            "items": [
+                {
+                    "id": "5de04412-2b51-40f9-97f6-72f4a13d0646",
+                    "url": "www.photolabtrading.com",
+                    "date": {
+                        "end": "",
+                        "start": "2020-09-04T19:17:30.000Z"
+                    },
+                    "name": "Photolab Trading",
+                    "summary": "",
+                    "position": "Executive Officer"
+                },
+                {
+                    "id": "380f170d-f322-4c54-825c-ea05e881b0b2",
+                    "url": "",
+                    "date": {
+                        "end": "2021-10-20T19:20:47.000Z",
+                        "start": "2020-03-31T19:20:24.000Z"
+                    },
+                    "name": "Tech Junkies",
+                    "summary": "",
+                    "position": "Researcher & Content Writer"
+                },
+                {
+                    "id": "42f0167a-8d1f-45b8-8621-eee4fa3db1dc",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": "2021-01-20T19:22:26.000Z"
+                    },
+                    "name": "JUKTI - The Official Club of CSE, IUB",
+                    "summary": "",
+                    "position": "Sub-Executive Logistics"
+                },
+                {
+                    "id": "f18dfc3f-4d91-4a60-a2d8-e9a6f762116b",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": "2020-12-31T19:23:05.000Z"
+                    },
+                    "name": "IUB E-Business Club",
+                    "summary": "",
+                    "position": "Head of Operations & Logistics"
+                },
+                {
+                    "id": "7f2b9080-57aa-4643-85f8-b194b0d3fa22",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": "2022-07-31T19:24:17.000Z"
+                    },
+                    "name": "IUB Esports Club",
+                    "summary": "",
+                    "position": "Treasurer"
+                },
+                {
+                    "id": "c9106254-bd91-47c6-8c9b-d152b15c3b60",
+                    "url": "https://nanocaps.no/",
+                    "date": {
+                        "end": "",
+                        "start": "2022-10-20T19:27:11.140Z"
+                    },
+                    "name": "NanoCaps",
+                    "summary": "",
+                    "position": "Freelance Executive for Media"
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "awards": {
+            "id": "awards",
+            "name": "Awards",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "skills": {
+            "id": "skills",
+            "name": "Skills",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "1d03eb41-1dc5-4819-a276-836f380cf9ac",
+                    "name": "Communication",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                },
+                {
+                    "id": "930d1089-53b4-4f49-b4e8-d5cf20867dce",
+                    "name": "Leadership",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                },
+                {
+                    "id": "4614e78b-7450-4008-ac30-b561e81bab6b",
+                    "name": "Teamwork",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                },
+                {
+                    "id": "599b270c-2ef6-4ba2-9fe2-998315fb1b9b",
+                    "name": "Problem Solving",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                },
+                {
+                    "id": "e8ef560e-19d2-4873-bfc7-7d4bdc06d2e5",
+                    "name": "Time Management",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                },
+                {
+                    "id": "5128b3e9-a11d-47c2-947d-dbc34baa80c1",
+                    "name": "Marketing",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                },
+                {
+                    "id": "5c3a3a69-e48e-422a-87fb-8523f68414a9",
+                    "name": "Planning",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                },
+                {
+                    "id": "62505dcc-8693-44d9-8004-7a4346acb323",
+                    "name": "Networking",
+                    "level": "",
+                    "keywords": [],
+                    "levelNum": 0
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "projects": {
+            "id": "projects",
+            "name": "Projects",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "education": {
+            "id": "education",
+            "name": "Education",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "24f0bceb-4912-4bff-97ed-9edd6d760473",
+                    "url": "",
+                    "area": "Science",
+                    "date": {
+                        "end": "2017-06-29T19:27:57.000Z",
+                        "start": "2012-06-30T19:27:48.000Z"
+                    },
+                    "score": "A",
+                    "degree": "O Level",
+                    "courses": [
+                        "English",
+                        "Bengali",
+                        "Maths",
+                        "Add. Maths",
+                        "Physics",
+                        "Chemistry",
+                        "Biology",
+                        "Computer Science"
+                    ],
+                    "summary": "",
+                    "institution": "Manarat Dhaka International College"
+                },
+                {
+                    "id": "cba7fa8b-c7ad-43eb-bc18-d5aa9a1eac69",
+                    "url": "",
+                    "area": "Science",
+                    "date": {
+                        "end": "2019-06-29T19:27:57.000Z",
+                        "start": "2017-06-30T19:27:48.000Z"
+                    },
+                    "score": "A",
+                    "degree": "A Level",
+                    "courses": [
+                        "Maths",
+                        "Chemistry",
+                        "Physics",
+                        "Computer Science"
+                    ],
+                    "summary": "",
+                    "institution": "Manarat Dhaka International College"
+                },
+                {
+                    "id": "01ae2261-5bf1-4f5f-995f-3e30447f9dc5",
+                    "url": "",
+                    "area": "Computer Science, Marketing",
+                    "date": {
+                        "end": "",
+                        "start": "2019-12-31T19:29:34.000Z"
+                    },
+                    "score": "3.53",
+                    "degree": "Bachelor of Science",
+                    "courses": [],
+                    "summary": "",
+                    "institution": "Independent University, Bangladesh"
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "interests": {
+            "id": "interests",
+            "name": "Interests",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "languages": {
+            "id": "languages",
+            "name": "Languages",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "bf2aa0b4-133a-4be4-9aaa-d390b01b0cd8",
+                    "name": "English",
+                    "level": "Advanced",
+                    "levelNum": 8
+                },
+                {
+                    "id": "81c85fb3-15c5-4fa6-97ce-a85c6fc8878a",
+                    "name": "Bangla",
+                    "level": "Expert",
+                    "levelNum": 10
+                },
+                {
+                    "id": "2cc8b72a-bddc-4098-9ac1-f8047b002b46",
+                    "name": "Hindi",
+                    "level": "Beginner",
+                    "levelNum": 3
+                },
+                {
+                    "id": "8def5ef3-492a-46d9-9661-d98039ce36d0",
+                    "name": "Arabic",
+                    "level": "Beginner",
+                    "levelNum": 2
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "volunteer": {
+            "id": "volunteer",
+            "name": "Volunteer Experience",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "references": {
+            "id": "references",
+            "name": "References",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "8e24020b-b736-4fcf-b4c6-b6a9f9abc145",
+                    "name": "Sanzar Adnan Alam",
+                    "email": "sanzar@iub.edu.bd",
+                    "phone": "",
+                    "summary": "Department of Computer Science & Engineering, \nIndependent University, Bangladesh",
+                    "relationship": "Lecturer"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "publications": {
+            "id": "publications",
+            "name": "Publications",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "certifications": {
+            "id": "certifications",
+            "name": "Certifications",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        }
+    },
+    "metadata": {
+        "css": {
+            "value": "/** @type {import('tailwindcss').Config} */\nmodule.exports = {\n  darkMode: \"class\",\n  content: [\n    \"./pages/**/*.{js,ts,jsx,tsx}\",\n    \"./components/**/*.{js,ts,jsx,tsx}\",\n  ],\n  theme: {\n    extend: {\n      fontFamily: {\n        burtons: \"burtons\",\n        poppins: [\"Poppins\", \"sans-serif\"],\n      },\n    },\n  },\n  plugins: [],\n};\n\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\nhtml,\nbody {\n  padding: 0;\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,\n    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n* {\n  box-sizing: border-box;\n}\n@font-face {\n  font-family: \"burtons\";\n  src: url(\"../public/Burtons.otf\");\n}\n",
+            "visible": false
+        },
+        "date": {
+            "format": "DD MMMM YYYY"
+        },
+        "page": {
+            "format": "A4"
+        },
+        "theme": {
+            "text": "#000000",
+            "primary": "#e91e63",
+            "background": "#ffffff"
+        },
+        "layout": [
+            [
+                [
+                    "work",
+                    "education",
+                    "projects",
+                    "volunteer",
+                    "references"
+                ],
+                [
+                    "skills",
+                    "interests",
+                    "languages",
+                    "awards",
+                    "certifications",
+                    "publications"
+                ]
+            ]
+        ],
+        "locale": "en",
+        "template": "gengar",
+        "typography": {
+            "size": {
+                "body": 13,
+                "heading": 28
+            },
+            "family": {
+                "body": "Noto Sans Thai",
+                "heading": "Open Sans"
+            }
+        }
+    },
+    "public": true
+}
