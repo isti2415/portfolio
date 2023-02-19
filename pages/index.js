@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { FaDownload, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import Link from "next/link";
-import propic from "../public/pro-pic.jpg"
+import propic from "../public/pro-pic.png"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
