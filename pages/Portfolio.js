@@ -110,6 +110,7 @@ export default function Portfolio() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt="web1"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -119,6 +120,7 @@ export default function Portfolio() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt="web2"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -128,6 +130,7 @@ export default function Portfolio() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt="web3"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -137,6 +140,7 @@ export default function Portfolio() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt="web4"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -146,6 +150,7 @@ export default function Portfolio() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt="web5"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -155,6 +160,7 @@ export default function Portfolio() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt="web6"
               />
             </div>
           </div>
