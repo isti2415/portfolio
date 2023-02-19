@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { FaDownload, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import Link from "next/link";
+import propic from "../public/pro-pic.jpg"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -74,7 +75,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <Image src="../public/pro-pic.jpg" alt="" layout="fill" objectFit="cover" />
+            <Image src={propic} alt="" layout="fill" objectFit="cover" />
 
           </div>
           <div className="text-center p-10 py-10">
