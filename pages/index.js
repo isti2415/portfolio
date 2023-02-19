@@ -6,6 +6,7 @@ import { FaDownload, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'reac
 import Link from "next/link";
 import propic from "../public/pro-pic.png"
 
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -19,8 +20,8 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <Link href="/" className="font-burtons text-xl">
-              Istiaq Ahmed
+            <Link href="/">
+              <h1 className="font-burtons text-2xl">Istiaq Ahmed</h1>
             </Link>
             <ul className="flex items-center">
               <li style={{ position: 'fixed', bottom: '20px', right: '40px' }}>
@@ -30,19 +31,17 @@ export default function Home() {
                 />
               </li>
               <li>
-                <Link
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="/Resume"
-                >
-                  Resume
+                <Link href="/Resume">
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                    Resume
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="/Portfolio"
-                >
-                  Portfolio
+                <Link href="/Portfolio">
+                  <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                    Portfolio
+                  </a>
                 </Link>
               </li>
               <li style={{ position: 'fixed', bottom: '20px', left: '40px' }}>

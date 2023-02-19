@@ -23,9 +23,10 @@ export default function Portfolio() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <nav className="py-10 mb-12 flex justify-between dark:text-white">
-          <Link href="/" className="font-burtons text-xl">
-            Istiaq Ahmed
+          <Link href="/">
+            <h1 className="font-burtons text-2xl">Istiaq Ahmed</h1>
           </Link>
+
           <ul className="flex items-center">
             <li style={{ position: 'fixed', bottom: '20px', right: '40px' }}>
               <BsFillMoonStarsFill
@@ -34,19 +35,17 @@ export default function Portfolio() {
               />
             </li>
             <li>
-              <Link
-                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                href="/Resume"
-              >
-                Resume
+              <Link href="/Resume">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                  Resume
+                </a>
               </Link>
             </li>
             <li>
-              <Link
-                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                href="/Portfolio"
-                >
-                Portfolio
+              <Link href="/Portfolio">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                  Portfolio
+                </a>
               </Link>
             </li>
             <li style={{ position: 'fixed', bottom: '20px', left: '40px' }}>
@@ -81,7 +80,7 @@ export default function Portfolio() {
         </nav>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
+            <h2 className="text-3xl -mt-12 font-medium py-4 dark:text-white">Portfolio</h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I&apos;ve done remote work for
