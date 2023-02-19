@@ -50,12 +50,12 @@ export default function Portfolio() {
               </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 href="/Portfolio"
-              >
+                >
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li style={{ position: 'fixed', bottom: '20px', left: '40px' }}>
               <a href="/path/to/download" download>
@@ -92,7 +92,7 @@ export default function Portfolio() {
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talented people to create digital products

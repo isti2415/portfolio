@@ -3,15 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "firebase": "^9.10.0",
     "moment": "^2.29.4",
-    "next": "12.3.1",
+    "next": "^12.3.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0"
   },
