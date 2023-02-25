@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import Nav from "../components/nav";
+import { FaDownload } from "react-icons/fa";
 
 export default function Resume() {
     const [darkMode, setDarkMode] = useState(true);
@@ -14,7 +15,7 @@ export default function Resume() {
             </Head>
             <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 pt-24">
                 <section className="min-h-screen">
-                <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
+                    <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
                     <section className="py-10">
                         <h2 className="text-3xl -mt-12 font-medium py-4 dark:text-white">Skills</h2>
                     </section>
@@ -147,6 +148,15 @@ export default function Resume() {
                             <p className="text-md py-2">
                                 Relevant coursework: Typography, Branding, User Experience Design, Illustration
                             </p>
+                        </div>
+                        <div className="py-4 dark:text-gray-200">
+                            <ul className="flex items-center justify-end h-full">
+                                <li className="mr-8" style={{ position: 'fixed', bottom: '20px', left: '40px' }}>
+                                    <a href="https://rxresu.me/istiaqahmed87/istiaqs-professional-resume" download className="flex items-center text-lg">
+                                        <FaDownload className="text-2xl mr-2" />Download Resume
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </section>
                 </section>
