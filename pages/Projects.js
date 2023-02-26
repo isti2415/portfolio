@@ -34,35 +34,35 @@ export default function Projects() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
-  {resumeData.sections.projects.items.map((item) => (
-    <div className="max-w-md mx-auto shadow-md rounded-md overflow-hidden h-full">
-      <div className="bg-gray-200 dark:bg-gray-700 h-56 w-full object-cover relative">
-        <Image
-          src="/path/to/image.jpg"
-          alt="Project Screenshot"
-          layout="fill"
-          objectFit="cover"
-        />
-      </div>
-      <div key={item.id} className="p-4 md:p-6 h-full">
-        <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
-          {item.name}
-        </h2>
-        <p className="text-gray-600 dark:text-gray-300 mt-2">
-          {item.description}
-        </p>
-        <div className="flex justify-end mt-4">
-          <a
-            href={item.url}
-            className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md sm:ml-8 mt-4 sm:mt-0"
-          >
-            View Source Code
-          </a>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
+            {resumeData.sections.projects.items.map((item) => (
+              <div key={item.id} className="p-4 md:p-6 h-full">
+              <div className="max-w-md mx-auto shadow-md rounded-md overflow-hidden h-full">
+                <div className="bg-gray-200 dark:bg-gray-700 h-56 w-full object-cover relative">
+                  <Image
+                    src="/path/to/image.jpg"
+                    alt="Project Screenshot"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                  <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
+                    {item.name}
+                  </h2>
+                  <p className="text-gray-600 dark:text-gray-300 mt-2">
+                    {item.description}
+                  </p>
+                  <div className="flex justify-end mt-4">
+                    <a
+                      href={item.url}
+                      className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md sm:ml-8 mt-4 sm:mt-0"
+                    >
+                      View Source Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
       </main>
     </div>
