@@ -62,7 +62,7 @@ export default function Contact() {
                                 <ul className="flex justify-center mt-8">
                                     <li className="mx-4">
                                         <a href="https://www.facebook.com/xo2415/" target="_blank" rel="noopener noreferrer">
-                                            <FaFacebook className="text-3xl text-black dark:text-white" />
+                                            <FaFacebook className="text-3xl text-gradient-to-r from-cyan-500 to-teal-500 text-black dark:text-white" />
                                         </a>
                                     </li>
                                     <li className="mx-4">
@@ -93,10 +93,10 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="w-full sm:w-6/12 px-4 mt-4 sm:mt-0">
-                        <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg overflow-hidden">
-                            <div className="px-4 py-4">
+                        <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg">
+                            <div className="px-4 py-4 flex flex-col items-center">
                                 <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Leave a Message</h3>
-                                <form className="flex flex-col gap-6 mt-6" style={{ maxWidth: "30rem" }}>
+                                <form className="flex flex-col flex-grow gap-6 mt-6">
                                     <label htmlFor="name" className="text-gray-800 dark:text-gray-200">Name</label>
                                     <input type="text" id="name" name="name" className="px-4 py-2 rounded-lg dark:bg-white bg-gray-200 dark:border-gray-400 border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required />
                                     <label htmlFor="email" className="text-gray-800 dark:text-gray-200">Email</label>
