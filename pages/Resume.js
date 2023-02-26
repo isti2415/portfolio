@@ -15,116 +15,117 @@ export default function Resume() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 pt-24 min-h-screen">
-                    <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
-                    <h2 className="mt-8 text-3xl font-medium py-4 dark:text-white">Resume</h2>
-                    <section className="py-10 grid gap-6 lg:grid-cols-2">
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h2 className="text-3xl font-medium py-4 dark:text-white">Work Experience</h2>
-                            <div className="py-4 dark:text-gray-200">
-                                {resumeData.sections.work.items.map((item) => (
-                                    <div key={item.id} className="mb-6">
-                                        <h3 className="text-xl font-medium text-teal-500">{item.position}</h3>
-                                        <p className="text-md text-red-500">{item.name}</p>
-                                        <a href={item.url} className="text-gray-400 text-md hover:underline">{item.url}</a>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h2 className="text-3xl font-medium py-4 dark:text-white">Education</h2>
-                            <div className="py-4 dark:text-gray-200">
-                                {resumeData.sections.education.items.map((item) => (
-                                    <div key={item.id} className="mb-6">
-                                        <h3 className="text-xl font-medium text-teal-500">{item.degree}</h3>
-                                        <p className="text-md text-red-500">{item.area}</p>
-                                        <p className="text-md text-gray-400">{item.institution}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h2 className="text-3xl font-medium py-4 dark:text-white">Awards</h2>
-                            <div className="py-4 dark:text-gray-200">
-                                {resumeData.sections.awards.items.map((item) => (
-                                    <div key={item.id} className="mb-6">
-                                        <h3 className="text-xl font-medium text-teal-500">{item.awarder}</h3>
-                                        <p className="text-md py-1 text-gray-400">{item.title}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h2 className="text-3xl font-medium py-4 dark:text-white">Extra Curricular</h2>
-                            <div className="py-4 dark:text-gray-200">
-                                {resumeData.sections["work-1"].items.map((item) => (
-                                    <div key={item.id} className="mb-6">
-                                        <h3 className="text-xl font-medium text-teal-500">{item.name}</h3>
-                                        <p className="text-md py-1 text-gray-400">{item.position}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </section>
-                    <h2 className="mt-8 -mb-16 text-3xl font-medium py-4 dark:text-white">Skills</h2>
-                    <section className="py-10 mt-16 pb-16 grid gap-6 lg:grid-cols-2">
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h3 className="text-2xl font-medium py-2 dark:text-white">Professional Competencies</h3>
-                            <ul className="list-disc list-inside py-2 dark:text-teal-500">
-                                <li>Communication</li>
-                                <li>Problem Solving</li>
-                                <li>Teamwork</li>
-                                <li>Time Management</li>
-                                <li>Leadership</li>
-                            </ul>
-                        </div>
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h3 className="text-2xl font-medium py-2 dark:text-white">Programming Languages</h3>
-                            <ul className="list-disc list-inside py-2 dark:text-teal-500">
-                                <li>C/C++</li>
-                                <li>Python</li>
-                                <li>Java</li>
-                                <li>JavaScript</li>
-                                <li>Arduino</li>
-                            </ul>
-                        </div>
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h3 className="text-2xl font-medium py-2 dark:text-white">Web Development</h3>
-                            <ul className="list-disc list-inside py-2 dark:text-teal-500">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Django</li>
-                                <li>React</li>
-                                <li>Node.js</li>
-                            </ul>
-                        </div>
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h3 className="text-2xl font-medium py-2 dark:text-white">Design Tools</h3>
-                            <ul className="list-disc list-inside py-2 dark:text-teal-500">
-                                <li>Photoshop</li>
-                                <li>Illustrator</li>
-                                <li>Canva</li>
-                            </ul>
-                        </div>
-                        <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                            <h3 className="text-2xl font-medium py-2 dark:text-white">Language</h3>
-                            {resumeData.sections.languages.items.map((item) => (
-                                <div key={item.id} className="">
-                                    <ul className="list-disc list-inside dark:text-teal-500">
-                                        <li>{item.name}</li>
-                                    </ul>
+                <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
+                <div className="flex justify-between">
+                    <h2 className="mt-8 text-3xl font-medium dark:text-white">Resume</h2>
+                    <ul>
+                        <li className="mt-8">
+                            <a href="https://rxresu.me/istiaqahmed87/istiaqs-professional-resume" download className="flex items-center text-lg dark:text-white">
+                                <FaDownload className="text-2xl mr-2" />
+                                Download Resume
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <section className="py-10 grid gap-6 lg:grid-cols-2">
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h2 className="text-3xl font-medium py-4 dark:text-white">Work Experience</h2>
+                        <div className="py-4 dark:text-gray-200">
+                            {resumeData.sections.work.items.map((item) => (
+                                <div key={item.id} className="mb-6">
+                                    <h3 className="text-xl font-medium text-teal-500">{item.position}</h3>
+                                    <p className="text-md text-red-500">{item.name}</p>
+                                    <a href={item.url} className="text-gray-400 text-md hover:underline">{item.url}</a>
                                 </div>
                             ))}
                         </div>
-                    </section>
-                    <div className="dark:text-gray-200" style={{ position: "fixed", bottom: "20px", left: "40px" }}>
-                        <ul className="flex items-center justify-end h-full">
-                            <li className="mr-8">
-                                <a href="https://rxresu.me/istiaqahmed87/istiaqs-professional-resume" download className="flex items-center text-lg">
-                                    <FaDownload className="text-2xl mr-2" />Download Resume
-                                </a>
-                            </li>
+                    </div>
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h2 className="text-3xl font-medium py-4 dark:text-white">Education</h2>
+                        <div className="py-4 dark:text-gray-200">
+                            {resumeData.sections.education.items.map((item) => (
+                                <div key={item.id} className="mb-6">
+                                    <h3 className="text-xl font-medium text-teal-500">{item.degree}</h3>
+                                    <p className="text-md text-red-500">{item.area}</p>
+                                    <p className="text-md text-gray-400">{item.institution}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h2 className="text-3xl font-medium py-4 dark:text-white">Awards</h2>
+                        <div className="py-4 dark:text-gray-200">
+                            {resumeData.sections.awards.items.map((item) => (
+                                <div key={item.id} className="mb-6">
+                                    <h3 className="text-xl font-medium text-teal-500">{item.awarder}</h3>
+                                    <p className="text-md py-1 text-gray-400">{item.title}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h2 className="text-3xl font-medium py-4 dark:text-white">Extra Curricular</h2>
+                        <div className="py-4 dark:text-gray-200">
+                            {resumeData.sections["work-1"].items.map((item) => (
+                                <div key={item.id} className="mb-6">
+                                    <h3 className="text-xl font-medium text-teal-500">{item.name}</h3>
+                                    <p className="text-md py-1 text-gray-400">{item.position}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+                <h2 className="mt-8 -mb-16 text-3xl font-medium dark:text-white">Skills</h2>
+                <section className="py-10 mt-16 pb-16 grid gap-6 lg:grid-cols-2">
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-2xl font-medium py-2 dark:text-white">Professional Competencies</h3>
+                        <ul className="list-disc list-inside py-2 dark:text-teal-500">
+                            <li>Communication</li>
+                            <li>Problem Solving</li>
+                            <li>Teamwork</li>
+                            <li>Time Management</li>
+                            <li>Leadership</li>
                         </ul>
                     </div>
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-2xl font-medium py-2 dark:text-white">Programming Languages</h3>
+                        <ul className="list-disc list-inside py-2 dark:text-teal-500">
+                            <li>C/C++</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Arduino</li>
+                        </ul>
+                    </div>
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-2xl font-medium py-2 dark:text-white">Web Development</h3>
+                        <ul className="list-disc list-inside py-2 dark:text-teal-500">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Django</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-2xl font-medium py-2 dark:text-white">Design Tools</h3>
+                        <ul className="list-disc list-inside py-2 dark:text-teal-500">
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>Canva</li>
+                        </ul>
+                    </div>
+                    <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-2xl font-medium py-2 dark:text-white">Language</h3>
+                        {resumeData.sections.languages.items.map((item) => (
+                            <div key={item.id} className="">
+                                <ul className="list-disc list-inside dark:text-teal-500">
+                                    <li>{item.name}</li>
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </main>
         </div>
     );
