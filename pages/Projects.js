@@ -33,7 +33,7 @@ export default function Projects() {
               Below are some examples of my work.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
+          <div className="pb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
             {resumeData.sections.projects.items.map((item) => (
               <div key={item.id} className="p-4 md:p-6 h-full">
               <div className="max-w-md mx-auto shadow-md rounded-md overflow-hidden h-full">

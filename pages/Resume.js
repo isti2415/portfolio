@@ -66,7 +66,7 @@ export default function Resume() {
                         </div>
                     </section>
                     <h2 className="mt-8 -mb-16 text-3xl font-medium py-4 dark:text-white">Skills</h2>
-                    <section className="py-10 mt-16 grid gap-6 lg:grid-cols-2">
+                    <section className="py-10 mt-16 pb-16 grid gap-6 lg:grid-cols-2">
                         <div className="p-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
                             <h3 className="text-2xl font-medium py-2 dark:text-white">Professional Competencies</h3>
                             <ul className="list-disc list-inside py-2 dark:text-teal-500">
